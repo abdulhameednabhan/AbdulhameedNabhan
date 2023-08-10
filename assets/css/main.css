@@ -533,7 +533,9 @@ animation: fadeOut 2s forwards, delay 0.3s infinite ease-in-out;
 
 
 
-
+.preloader65{
+  display: none;
+}
 
 
 .preloader .loader {
