@@ -499,9 +499,43 @@ svg{
   width: 10px;
   display: inline-block;
   margin-left: 2px;
-  -webkit-animation: delay 0.1s infinite ease-in-out;
-          animation: delay 0.1s infinite ease-in-out;
+  /* -webkit-animation: delay 0.3s infinite ease-in-out;
+          animation: delay 0.3s infinite ease-in-out;
+} */
+animation: fadeOut 2s forwards, delay 0.3s infinite ease-in-out;
 }
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+@keyframes delay {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 .preloader .loader {
   margin: 0 auto;
   position: absolute;
@@ -2284,7 +2318,7 @@ a {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.2);
+    transform: scale(1.09);
   }
   100% {
     transform: scale(1);
@@ -2299,6 +2333,7 @@ a {
     filter: grayscale(0%);
   }
 }
+
 
 
 
