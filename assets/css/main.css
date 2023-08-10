@@ -499,8 +499,8 @@ svg{
   width: 10px;
   display: inline-block;
   margin-left: 2px;
-  -webkit-animation: delay 0.4s infinite ease-in-out;
-          animation: delay 0.4s infinite ease-in-out;
+  -webkit-animation: delay 0.2s  infinite ease-in-out;
+          animation: delay 0.2s  infinite ease-in-out;
 }
 .preloader .loader {
   margin: 0 auto;
