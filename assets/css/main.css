@@ -499,8 +499,8 @@ svg{
   width: 10px;
   display: inline-block;
   margin-left: 2px;
-  -webkit-animation: delay 0.5s infinite ease-in-out;
-          animation: delay 0.5s infinite ease-in-out;
+  -webkit-animation: delay 0.1s infinite ease-in-out;
+          animation: delay 0.1s infinite ease-in-out;
 }
 .preloader .loader {
   margin: 0 auto;
@@ -517,20 +517,20 @@ svg{
   background-color: #1F2044;
 }
 .preloader .loader .bar2 {
-  -webkit-animation-delay: -0.6s;
-          animation-delay: -0.6s;
-}
-.preloader .loader .bar3 {
-  -webkit-animation-delay: -0.5s;
-          animation-delay: -0.5s;
-}
-.preloader .loader .bar4 {
-  -webkit-animation-delay: -0.4s;
-          animation-delay: -0.4s;
-}
-.preloader .loader .bar5 {
   -webkit-animation-delay: -0.3s;
           animation-delay: -0.3s;
+}
+.preloader .loader .bar3 {
+  -webkit-animation-delay: -0.2s;
+          animation-delay: -0.2s;
+}
+.preloader .loader .bar4 {
+  -webkit-animation-delay: -0.1s;
+          animation-delay: -0.1s;
+}
+.preloader .loader .bar5 {
+  -webkit-animation-delay: -0.01s;
+          animation-delay: -0.01s;
 }
 .preloader .loader .bar6 {
   -webkit-animation-delay: -0.2s;
