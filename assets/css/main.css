@@ -2310,6 +2310,13 @@ a {
   border-radius: 0.5rem;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+.img-fluid1{
+  filter: grayscale(100%)
+}
+.img-fluid1:hover{
+  filter: grayscale(1%)
+}
+
 .img-fluid4 {
   filter: grayscale(100%);
   animation: zoomInOut 5s infinite alternate, colorize 5s ease-in-out infinite;
